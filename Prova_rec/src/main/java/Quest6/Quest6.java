@@ -22,7 +22,7 @@ public class Quest6 {
                 float val = Float.parseFloat(res);
                 total += val;
                 quant++;
-            }catch(Exception e){
+            }catch(NumberFormatException e){
                 entrada = false;
             }
         }while(entrada);
