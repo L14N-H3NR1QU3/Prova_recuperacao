@@ -21,6 +21,6 @@ public class Quest2 {
         int res = ano*365;
         res += mes*30;
         res += dia;
-        System.out.println("Seu tempo de vida em dias e "+res+" dias");
+        System.out.println("Seu tempo de vida em dias e "+res+" dias!");
     }
 }
