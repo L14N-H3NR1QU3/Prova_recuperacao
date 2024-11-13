@@ -30,7 +30,7 @@ public class Quest3 {
             ped[esc-1]++;
         }
         else{
-            System.out.println("\nEscolha invalida!\n");
+            System.out.println("\n\nEscolha invalida!\n");
         }
             }while(esc != 4);
         System.out.println("----------Total---------");
