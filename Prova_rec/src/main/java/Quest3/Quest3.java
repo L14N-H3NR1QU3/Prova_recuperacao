@@ -18,12 +18,12 @@ public class Quest3 {
         int total = 0;
         int esc;
         do{
-        System.out.println("----------Menu----------");
+        System.out.println("----------Menu-----------");
         for(int i = 0; i < 3; i++){
             System.out.println((i+1)+" - "+nomeMenu[i]+" - R$"+valMenu[i]);
         }
         System.out.println("4 - totalizar vendas");
-        System.out.println("------------------------");
+        System.out.println("-------------------------");
         System.out.print("Escolha: ");
         esc = s.nextInt();
         if(esc < 4 && esc > 0){
@@ -33,7 +33,7 @@ public class Quest3 {
             System.out.println("\n\nEscolha invalida!\n");
         }
             }while(esc != 4);
-        System.out.println("----------Total---------");
+        System.out.println("----------Total----------");
         for(int i = 0; i < 3; i++){
             total += valMenu[i]*ped[i];
             System.out.println("Quantidade - "+ped[i]+" - "+nomeMenu[i]+" - R$"+(valMenu[i]*ped[i]));
